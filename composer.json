@@ -1,0 +1,23 @@
+{
+    "name": "paula/app-salon_php_mvc_js_sass",
+    "description": "Proyecto PHP 8 MVC ,SQL , GULP , SASS",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\":"./",
+            "Controllers\\": "./controllers",
+            "Model\\": "./models",
+            "Classes\\": "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "angel",
+            "email": "aasm200@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.6",
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
